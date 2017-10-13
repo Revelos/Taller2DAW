@@ -1,0 +1,88 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'segoe ui';
+}
+body {
+  padding: 1%;
+  text-align: center;
+}
+h1{
+  margin-bottom: 3%;
+}
+form {
+  display: inline-flex;
+}
+label{
+  margin-right: 2%;
+  margin-left:  2%;
+}
+form input {
+  border: 1px solid #ccc;
+  color: #333;
+  font-family: 'segoe ui';
+  font-size: 14px;
+  outline: none;
+  padding: .4rem .8rem;
+}
+form #btnAgregar {
+  background-color: #1abc9c;
+  border: 1px solid #1abc9c;
+  color: rgba(255,255,255,.93);
+  font-family: 'segoe ui';
+  margin-left: 10%;
+  padding: .4rem 1rem;
+  transition: background-color .2s ease,
+    color .2s ease;
+}
+form #btnAgregar:hover {
+  background-color: #ffF;
+  color: #1abc9c;
+}
+#dos{
+  display:inline-flex;
+  width: 70%;
+  padding: 1%;
+  text-align: center;
+  
+}
+table {
+
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+
+  margin-top: 25px;
+  margin-left: 40%;
+  margin-right: 35%;
+  
+}
+table thead th {
+  background-color: #f2f2f2;
+  font-weight: 500;
+}
+table thead th,
+table tbody td {
+  color: #333;
+  font-family: 'segoe ui';
+  font-size: 14px;
+  padding: .5rem .65rem;
+}
+table thead th:not(:last-of-type),
+table tbody td:not(:last-of-type) {
+  border-right: 1px solid #ccc;
+}
+table thead tr,
+table tbody tr:not(:last-of-type) {
+  border-bottom: 1px solid #ccc;
+}
+footer {
+margin-top: 25%;
+
+}
+footer strong{
+display: list-item;
+
+}
